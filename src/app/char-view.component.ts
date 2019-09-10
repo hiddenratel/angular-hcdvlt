@@ -7,5 +7,10 @@ import { Component } from '@angular/core';
 })
 
 export class CharViewComponent{
+  char: Character;
   ;
 };
+
+export class Character{
+
+}
