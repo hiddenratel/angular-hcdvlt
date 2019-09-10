@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'mw-media-item',
+  selector: 'char-view',
   templateUrl: './char-view.component.html',
   styleUrls: ['./char-view.component.css']
 })
@@ -12,5 +12,6 @@ export class CharViewComponent{
 };
 
 export class Character{
-
+    name: string;
+    descripion: string;
 }
