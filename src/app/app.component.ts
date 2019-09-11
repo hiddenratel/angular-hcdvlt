@@ -15,10 +15,11 @@ export class AppComponent  {
   constructor(){
     let firstChar = new Character();
     firstChar.name = "Elsa";
-    firstChar.description = "Postac Magdy";
+    firstChar.description = "Postac moja";
     firstChar.attributes = new Array<Attribute>();
     firstChar.attributes.push(new Attribute("WS",20,10,30))
     firstChar.attributes.push(new Attribute("BS",20,10,30))
+    firstChar.attributes.push(new Attribute("S",20,10,30))
 
     let jakisChar = new Character();
     jakisChar.name = "Otto";
