@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Character } from './model/character';
 
 @Component({
   selector: 'my-app',
@@ -7,4 +8,11 @@ import { Component } from '@angular/core';
 })
 export class AppComponent  {
   name = 'Angular';
+  firstChar :Character;
+
+  constructor(){
+    this.firstChar= new Character();
+    this.firstChar.name = "Elsa";
+    this.firstChar.description = "Postac Magdy"
+  }
 }

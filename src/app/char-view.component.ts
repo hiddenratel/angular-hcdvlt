@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
+import { Character } from './model/character';
 
 @Component({
   selector: 'char-view',
@@ -7,11 +8,7 @@ import { Component } from '@angular/core';
 })
 
 export class CharViewComponent{
+  @Input()
   char: Character;
   ;
 };
-
-export class Character{
-    name: string;
-    descripion: string;
-}
