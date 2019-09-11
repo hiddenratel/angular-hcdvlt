@@ -3,5 +3,5 @@
 <div>Description: {{char.description}}</div>
 <char-attr [attributes]="char.attributes"></char-attr>
 <div>Skill List:
-<char-skills [skills]="char.skills"></char-skills>
+<char-skills [attributes]="char.attributes" [skills]="char.skills"></char-skills>
 </div>

@@ -1,5 +1,6 @@
 import { Component,Input } from '@angular/core';
 import { Skill } from './model/skill';
+import { Attribute } from './model/attribute';
 
 @Component({
   selector: 'char-skills',
@@ -10,9 +11,26 @@ import { Skill } from './model/skill';
 export class CharSkillsComponent{
   @Input()
   skills: Array<Skill>;
+  @Input()
+  attributes:Array<Attribute>;
 
   onRoll(skill){
     skill.roll=randomIntFromInterval(0,100);
+  }
+  getCssClass(skill:Skill){
+    for(let attribute of this.attributes){
+      if(attribute.key==skill.attrKey)
+      {
+         if(attribute.currentValue>=skill.roll)
+         return "tg-kd4e"; 
+         else
+         return "tg-mnhx"; 
+      }
+      
+      
+    }
+    // return "tg-kd4e"; 
+    return "tg-0lax"; 
   }
 };
 

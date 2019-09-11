@@ -5,8 +5,8 @@
     <th>Roll</th>
   </tr>
   <tr *ngFor="let skill of skills">
-    <th class="tg-0lax">{{skill.name}}:{{skill.attrKey}}</th>
-    <th class="tg-0lax">{{skill.level}}</th>
-    <th class="tg-0lax" (click)="onRoll(skill)">{{skill.roll}}</th>
+    <th class={{getCssClass(skill)}}>{{skill.name}}:{{skill.attrKey}}</th>
+    <th class={{getCssClass(skill)}}>{{skill.level}}</th>
+    <th class={{getCssClass(skill)}} (click)="onRoll(skill)">{{skill.roll}}</th>
   </tr>
 </table>
