@@ -1,4 +1,4 @@
-import { NgModule } from '@angular/core';
+import { NgModule,APP_INITIALIZER } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { FormsModule } from '@angular/forms';
 
@@ -8,10 +8,16 @@ import { MediaItemComponent} from './media-item.component';
 import { CharViewComponent} from './char-view.component';
 import { CharAttrComponent} from './char-attr.component';
 import { CharSkillsComponent} from './char-skills.component';
+declare var GapiSession: any;
+
 
 @NgModule({
   imports:      [ BrowserModule, FormsModule ],
   declarations: [ AppComponent, HelloComponent, MediaItemComponent, CharViewComponent, CharAttrComponent, CharSkillsComponent],
-  bootstrap:    [ AppComponent ]
+  bootstrap:    [ AppComponent ],
 })
 export class AppModule { }
+
+
+
+

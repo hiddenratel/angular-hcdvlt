@@ -2,7 +2,7 @@ import { Attribute } from './attribute';
 import { Skill } from './skill';
 export class Character{
     name: string;
-    descripion: string;
+    description: string;
     attributes: Array<Attribute>;
     skills: Array<Skill>;
     constructor(){
