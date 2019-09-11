@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'mw-media-item',
+  selector: 'char-skills',
   templateUrl: './char-skills.component.html',
   styleUrls: ['./char-skills.component.css']
 })

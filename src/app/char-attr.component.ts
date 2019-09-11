@@ -1,11 +1,13 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
+import {Attribute} from './model/attribute';
 
 @Component({
-  selector: 'mw-media-item',
+  selector: 'char-attr',
   templateUrl: './char-attr.component.html',
   styleUrls: ['./char-attr.component.css']
 })
 
 export class CharAttrComponent{
-  ;
+  @Input()
+  attributes: Attribute[];
 };
