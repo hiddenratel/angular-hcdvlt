@@ -9,6 +9,5 @@ import { Character } from './model/character';
 
 export class CharViewComponent{
   @Input()
-  char: Character;
-  ;
+  characters: Array<Character>;
 };

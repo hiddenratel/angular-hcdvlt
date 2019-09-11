@@ -9,14 +9,27 @@ import { Attribute } from './model/attribute';
 })
 export class AppComponent  {
   name = 'Angular';
-  firstChar :Character;
+  characters: Array<Character>;
+  // firstChar :Character;
 
   constructor(){
-    this.firstChar= new Character();
-    this.firstChar.name = "Elsa";
-    this.firstChar.description = "Postac Magdy";
-    this.firstChar.attributes = new Array<Attribute>();
-    this.firstChar.attributes.push(new Attribute("WS",20,10,30))
-    this.firstChar.attributes.push(new Attribute("BS",20,10,30))
+    let firstChar = new Character();
+    firstChar.name = "Elsa";
+    firstChar.description = "Postac Magdy";
+    firstChar.attributes = new Array<Attribute>();
+    firstChar.attributes.push(new Attribute("WS",20,10,30))
+    firstChar.attributes.push(new Attribute("BS",20,10,30))
+
+    let jakisChar = new Character();
+    jakisChar.name = "Otto";
+    jakisChar.description = "Postac Lukasza";
+    jakisChar.attributes = new Array<Attribute>();
+    jakisChar.attributes.push(new Attribute("WS",20,5,25))
+    jakisChar.attributes.push(new Attribute("BS",20,10,30))
+
+    this.characters = new Array<Character>();
+    this.characters.push(firstChar);
+    this.characters.push(jakisChar);
   }
 }
+

@@ -1,3 +1,5 @@
+<div *ngFor="let char of characters">
 <h1>Name: {{char.name}}</h1>
 <div>Description: {{char.description}}</div>
 <char-attr [attributes]="char.attributes"></char-attr>
+</div>
