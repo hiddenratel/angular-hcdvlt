@@ -9,5 +9,5 @@ import {Attribute} from './model/attribute';
 
 export class CharAttrComponent{
   @Input()
-  attributes: Attribute[];
+  attributes: Array<Attribute>;
 };

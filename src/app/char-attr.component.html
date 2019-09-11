@@ -1,14 +1,15 @@
-<table class="tg">
+
+<table *ngIf="attributes" class="tg">
   <tr>
-    <th class="tg-0lax">a1</th>
+    <th *ngFor="let attribute of attributes" class="tg-0lax">{{attribute.key}}</th>
   </tr>
   <tr>
-    <td class="tg-0lax">a2</td>
+    <th *ngFor="let attribute of attributes" class="tg-0lax">{{attribute.startingValue}}</th>
   </tr>
   <tr>
-    <td class="tg-0lax">a3</td>
+    <th *ngFor="let attribute of attributes" class="tg-0lax">{{attribute.advance}}</th>
   </tr>
   <tr>
-    <td class="tg-0lax">a4</td>
+    <th *ngFor="let attribute of attributes" class="tg-0lax">{{attribute.currentValue}}</th>
   </tr>
 </table>

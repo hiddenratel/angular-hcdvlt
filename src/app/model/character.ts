@@ -2,6 +2,6 @@ import { Attribute } from './attribute';
 export class Character{
     name: string;
     descripion: string;
-    attributes: Attribute[];
-    
+    attributes: Array<Attribute>;
+
 }
