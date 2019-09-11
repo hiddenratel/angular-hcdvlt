@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { Component,Input } from '@angular/core';
+import { Skill } from './model/skill';
 
 @Component({
   selector: 'char-skills',
@@ -7,5 +8,6 @@ import { Component } from '@angular/core';
 })
 
 export class CharSkillsComponent{
-  ;
+  @Input()
+  skills: Array<Skill>;
 };

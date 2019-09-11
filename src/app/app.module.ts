@@ -7,10 +7,11 @@ import { HelloComponent } from './hello.component';
 import { MediaItemComponent} from './media-item.component';
 import { CharViewComponent} from './char-view.component';
 import { CharAttrComponent} from './char-attr.component';
+import { CharSkillsComponent} from './char-skills.component';
 
 @NgModule({
   imports:      [ BrowserModule, FormsModule ],
-  declarations: [ AppComponent, HelloComponent, MediaItemComponent, CharViewComponent, CharAttrComponent],
+  declarations: [ AppComponent, HelloComponent, MediaItemComponent, CharViewComponent, CharAttrComponent, CharSkillsComponent],
   bootstrap:    [ AppComponent ]
 })
 export class AppModule { }
