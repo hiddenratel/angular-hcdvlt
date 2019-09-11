@@ -1,6 +1,12 @@
 <table *ngIf="skills" class="tg">
+  <tr>
+    <th>Skill Name:attr</th>
+    <th>Skill Level</th>
+    <th>Roll</th>
+  </tr>
   <tr *ngFor="let skill of skills">
     <th class="tg-0lax">{{skill.name}}:{{skill.attrKey}}</th>
     <th class="tg-0lax">{{skill.level}}</th>
+    <th class="tg-0lax" (click)="onRoll(skill)">{{skill.roll}}</th>
   </tr>
 </table>

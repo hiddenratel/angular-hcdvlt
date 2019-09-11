@@ -9,6 +9,7 @@ export class Character{
       this.skills=new Array<Skill>();
       this.skills.push(new Skill("Melee","WS",0,"Walka wrecz"));
       this.skills.push(new Skill("Range","BS",0,"Walka zasiegowa"));
+      this.skills.push(new Skill("Nowy Skill","BS",0,"Walka zasiegowa"));
     }
 
 }
