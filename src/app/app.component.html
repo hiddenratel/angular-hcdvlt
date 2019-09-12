@@ -1,1 +1,8 @@
 <char-view [characters]="characters"></char-view>
+<form 
+(ngSubmit)="onLoad()">
+  <button type="submit">load</button>
+  <input name="playerName" type="text" [(ngModel)]="dataInput">
+    <div>{{jsonstring}}</div>
+</form>
+
