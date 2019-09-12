@@ -1,0 +1,137 @@
+[
+  {
+    "skills": [
+      {
+        "name": "Melee",
+        "attrKey": "WS",
+        "level": 0,
+        "descripion": "Walka wrecz",
+        "roll": 0
+      },
+      {
+        "name": "Range",
+        "attrKey": "BS",
+        "level": 0,
+        "descripion": "Walka zasiegowa",
+        "roll": 0
+      },
+      {
+        "name": "Nowy Skill",
+        "attrKey": "BS",
+        "level": 0,
+        "descripion": "Walka zasiegowa",
+        "roll": 0
+      }
+    ],
+    "name": "Elsa Dwa",
+    "description": "Postac Magdy",
+    "attributes": [
+      {
+        "key": "WS",
+        "startingValue": 20,
+        "advance": 10,
+        "currentValue": 30
+      },
+      {
+        "key": "BS",
+        "startingValue": 20,
+        "advance": 10,
+        "currentValue": 30
+      },
+      {
+        "key": "S",
+        "startingValue": 20,
+        "advance": 10,
+        "currentValue": 30
+      },
+      {
+        "key": "T",
+        "startingValue": 20,
+        "advance": 10,
+        "currentValue": 30
+      }
+    ]
+  },
+  {
+    "skills": [
+      {
+        "name": "Melee",
+        "attrKey": "WS",
+        "level": 0,
+        "descripion": "Walka wrecz",
+        "roll": 0
+      },
+      {
+        "name": "Range",
+        "attrKey": "BS",
+        "level": 0,
+        "descripion": "Walka zasiegowa",
+        "roll": 0
+      },
+      {
+        "name": "Nowy Skill",
+        "attrKey": "BS",
+        "level": 0,
+        "descripion": "Walka zasiegowa",
+        "roll": 0
+      }
+    ],
+    "name": "Otto",
+    "description": "Postac Lukasza",
+    "attributes": [
+      {
+        "key": "WS",
+        "startingValue": 20,
+        "advance": 5,
+        "currentValue": 25
+      },
+      {
+        "key": "BS",
+        "startingValue": 20,
+        "advance": 10,
+        "currentValue": 30
+      }
+    ]
+  },
+  {
+    "skills": [
+      {
+        "name": "Melee",
+        "attrKey": "WS",
+        "level": 0,
+        "descripion": "Walka wrecz",
+        "roll": 0
+      },
+      {
+        "name": "Range",
+        "attrKey": "BS",
+        "level": 0,
+        "descripion": "Walka zasiegowa",
+        "roll": 0
+      },
+      {
+        "name": "Nowy Skill",
+        "attrKey": "BS",
+        "level": 0,
+        "descripion": "Walka zasiegowa",
+        "roll": 0
+      }
+    ],
+    "name": "Otto",
+    "description": "Postac Lukasza",
+    "attributes": [
+      {
+        "key": "WS",
+        "startingValue": 20,
+        "advance": 5,
+        "currentValue": 25
+      },
+      {
+        "key": "BS",
+        "startingValue": 20,
+        "advance": 10,
+        "currentValue": 30
+      }
+    ]
+  }
+]
