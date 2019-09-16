@@ -17,11 +17,11 @@ export class CharSkillsComponent{
   onRoll(skill){
     skill.roll=randomIntFromInterval(0,100);
   }
-  getCssClass(skill:Skill){
+  getCssClass(skill:Skill,modifier){
     for(let attribute of this.attributes){
       if(attribute.key==skill.attrKey)
       {
-         if(attribute.currentValue>=skill.roll)
+         if(attribute.currentValue>=(skill.roll+modifier))
          return "tg-kd4e"; 
          else
          return "tg-mnhx"; 

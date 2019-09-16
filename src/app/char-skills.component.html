@@ -3,10 +3,24 @@
     <th>Skill Name:attr</th>
     <th>Skill Level</th>
     <th>Roll</th>
+    <th>R:-30</th>
+    <th>R:-20</th>
+    <th>R:-10</th>
+    <th>R:</th>
+    <th>R:+10</th>
+    <th>R:+20</th>
+    <th>R:+30</th>
   </tr>
   <tr *ngFor="let skill of skills">
-    <th class={{getCssClass(skill)}}>{{skill.name}}:{{skill.attrKey}}</th>
-    <th class={{getCssClass(skill)}}>{{skill.level}}</th>
-    <th class={{getCssClass(skill)}} (click)="onRoll(skill)">{{skill.roll}}</th>
+    <th >{{skill.name}}:{{skill.attrKey}}</th>
+    <th >{{skill.level}}</th>
+    <th (click)="onRoll(skill)">{{skill.roll}}</th>
+    <th class={{getCssClass(skill,-30)}} (click)="onRoll(skill)">{{skill.roll}}</th>
+    <th class={{getCssClass(skill,-20)}} (click)="onRoll(skill)">{{skill.roll}}</th>
+    <th class={{getCssClass(skill,-10)}} (click)="onRoll(skill)">{{skill.roll}}</th>
+    <th class={{getCssClass(skill,0)}} (click)="onRoll(skill)">{{skill.roll}}</th>
+    <th class={{getCssClass(skill,10)}} (click)="onRoll(skill)">{{skill.roll}}</th>
+    <th class={{getCssClass(skill,20)}} (click)="onRoll(skill)">{{skill.roll}}</th>
+    <th class={{getCssClass(skill,30)}} (click)="onRoll(skill)">{{skill.roll}}</th>
   </tr>
 </table>
