@@ -1,4 +1,153 @@
 [
+{
+    "skills": [
+      {
+        "name": "Melee",
+        "attrKey": "WS",
+        "level": 0,
+        "descripion": "Walka wrecz",
+        "roll": 0
+      },
+      {
+        "name": "Range",
+        "attrKey": "BS",
+        "level": 0,
+        "descripion": "Walka zasiegowa",
+        "roll": 0
+      },
+      {
+        "name": "Charm",
+        "attrKey": "Fel",
+        "level": 10,
+        "descripion": "Oczarowanie",
+        "roll": 0
+      },
+      {
+        "name": "Drive",
+        "attrKey": "S",
+        "level": 0,
+        "descripion": "Jazda wozem",
+        "roll": 0
+      },
+      {
+        "name": "Gamble",
+        "attrKey": "Int",
+        "level": 0,
+        "descripion": "Hazardzik",
+        "roll": 0
+      },
+      {
+        "name": "Outdoor Survival",
+        "attrKey": "Int",
+        "level": 0,
+        "descripion": "Przetrwanie w dziczy",
+        "roll": 0
+      },
+      {
+        "name": "Silent Move"
+        "attrKey": "Ag",
+        "level": 0,
+        "descripion": "Skradanie",
+        "roll": 0
+      },
+      {
+        "name": "Silent Move"
+        "attrKey": "Ag",
+        "level": 0,
+        "descripion": "Skradanie",
+        "roll": 0
+      },
+      {
+        "name": "Silent Move"
+        "attrKey": "Ag",
+        "level": 0,
+        "descripion": "Skradanie",
+        "roll": 0
+      },
+      {
+        "name": "Silent Move"
+        "attrKey": "Ag",
+        "level": 0,
+        "descripion": "Skradanie",
+        "roll": 0
+      },
+      {
+        "name": "Silent Move"
+        "attrKey": "Ag",
+        "level": 0,
+        "descripion": "Skradanie",
+        "roll": 0
+      },
+      {
+        "name": "Silent Move"
+        "attrKey": "Ag",
+        "level": 0,
+        "descripion": "Skradanie",
+        "roll": 0
+      },
+      {
+        "name": "Silent Move"
+        "attrKey": "Ag",
+        "level": 0,
+        "descripion": "Skradanie",
+        "roll": 0
+      }
+	  
+	  
+    ],
+    "name": "Eliza",
+    "description": "Postac Magdy",
+    "attributes": [
+      {
+        "key": "WS",
+        "startingValue": 31,
+        "advance": 0,
+        "currentValue": 31
+      },
+      {
+        "key": "BS",
+        "startingValue": 40,
+        "advance": 15,
+        "currentValue": 45
+      },
+      {
+        "key": "S",
+        "startingValue": 32,
+        "advance": 0,
+        "currentValue": 32
+      },
+      {
+        "key": "T",
+        "startingValue": 28,
+        "advance": 0,
+        "currentValue": 28
+      },
+      {
+        "key": "Ag",
+        "startingValue": 30,
+        "advance": 5,
+        "currentValue": 30
+      },
+      {
+        "key": "Int",
+        "startingValue": 31,
+        "advance": 5,
+        "currentValue": 31
+      },
+      {
+        "key": "WP",
+        "startingValue": 31,
+        "advance": 0,
+        "currentValue": 31
+      },
+      {
+        "key": "Fel",
+        "startingValue": 40,
+        "advance": ,
+        "currentValue": 40
+      }
+    ]
+  },
   {
     "skills": [
       {
@@ -23,32 +172,56 @@
         "roll": 0
       }
     ],
-    "name": "Elsa Dwa 123",
+    "name": "Vertha",
     "description": "Postac Magdy",
     "attributes": [
       {
         "key": "WS",
-        "startingValue": 20,
-        "advance": 10,
-        "currentValue": 30
+        "startingValue": 28,
+        "advance": 0,
+        "currentValue": 28
       },
       {
         "key": "BS",
-        "startingValue": 20,
-        "advance": 10,
-        "currentValue": 30
+        "startingValue": 22,
+        "advance": 0,
+        "currentValue": 22
       },
       {
         "key": "S",
-        "startingValue": 20,
-        "advance": 10,
-        "currentValue": 30
+        "startingValue": 31,
+        "advance": 0,
+        "currentValue": 31
       },
       {
         "key": "T",
-        "startingValue": 20,
-        "advance": 10,
+        "startingValue": 30,
+        "advance": 0,
         "currentValue": 30
+      },
+      {
+        "key": "Ag",
+        "startingValue": 30,
+        "advance": 5,
+        "currentValue": 30
+      },
+      {
+        "key": "Int",
+        "startingValue": 38,
+        "advance": 10,
+        "currentValue": 38
+      },
+      {
+        "key": "WP",
+        "startingValue": 37,
+        "advance": 15,
+        "currentValue": 37
+      },
+      {
+        "key": "Fel",
+        "startingValue": 32,
+        "advance": 5,
+        "currentValue": 32
       }
     ]
   },
